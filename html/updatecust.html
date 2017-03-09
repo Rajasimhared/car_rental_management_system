@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		body {background-color: #6B8E23;}
+		.button {
+                           position:absolute;
+                           background-color:#e7e7e7;
+                           border:none;
+                           width:150px;
+                           color: #555555;
+                           padding: 15px 25px;
+                           text-align: center;
+    	                   text-decoration: none;
+                           display: inline-block;
+                           font-size: 15px;
+                           appearance: button;
+                           color: black;
+                         
+}
+		th,td{
+			align:"center";
+                        height:30px;
+                        font-size:22px;
+			align:"center";
+                        height:30px;
+                        font-size:22px;
+}
+</style>
+</head>
+	<center><h1 style="color:white;">CUstomer Details</h1></center>
+
+	<form method="post" action="submitcust.php">
+		
+		<table style="width:80%;">
+<thead>
+	<tr>
+	<th>Customer Id</th>
+	<th>Id Number</th>
+	<th>Name</th>
+	<th>Address<th>
+	<th>Phone</th>
+	</tr>
+</thead>
+
+<tbody>
+
+<tr>    <td><input type="text" name="a"/></td>
+	<td><input type="text" name="b"/></td>
+	<td><input type="text" name="c"/></td>
+	<td><input type="text" name="d"/></td>
+	<td><input type="text" name="e"/></td>
+</tr>
+</tbody>
+</table>
+	<br><br><br>	
+	<center><input type="submit" class="button" value="Submit"/></center>
+	<br><br><br>
+</form>
+
+<form method="post" action="home.php">
+<center><input type="submit" class="button" value="Home Page"/></center>
+</form>
+
+</body>
+
+</html>
